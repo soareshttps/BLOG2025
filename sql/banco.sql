@@ -28,4 +28,5 @@ create table post
     CONSTRAINT fk_post_usuario FOREIGN KEY (usuario_id) references usuario (id)
 );
 
-    
+SELECT * FROM usuario;
+SELECT * FROM post;
