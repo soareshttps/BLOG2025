@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-require_once '../include/funcoes.php';
-require_once '../core/conex.php';
+require_once '../includes/funcoes.php';
+require_once '../core/conexao_mysql.php';
 require_once '../core/sql.php';
 require_once '../core/mysql.php';
 
@@ -117,5 +117,4 @@ case 'logout':
         exit;
         break;
     }
-    //header('Location: ../index.php');
 ?>
