@@ -21,6 +21,7 @@
                 <h2>Página Inicial</h2>
                 <?php
                     include 'includes/busca.php'; 
+                    date_default_timezone_set('America/Sao_Paulo');
                 ?>
 
                 <?php 
